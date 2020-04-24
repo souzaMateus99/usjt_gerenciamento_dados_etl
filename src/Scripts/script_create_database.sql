@@ -40,7 +40,6 @@ CREATE TABLE IF NOT EXISTS `orcamento_publico`.`TD_Orgao` (
   `Cod_Unidade_Orcamentaria` INT NULL,
   `Nome_Unidade_Orcamentaria` VARCHAR(250) NULL,
   `Data_Criacao` DATETIME NULL,
-  `TD_Orgaocol` VARCHAR(45) NULL,
   PRIMARY KEY (`Id_Dimensao_Orgao`))
 ENGINE = InnoDB;
 
@@ -68,7 +67,6 @@ CREATE TABLE IF NOT EXISTS `orcamento_publico`.`TD_Data` (
   `Mes` INT NULL,
   `Ano` INT NULL,
   `Data_Criacao` DATETIME NULL,
-  `TD_Datacol` VARCHAR(45) NULL,
   PRIMARY KEY (`Id_Dimensao_Data`))
 ENGINE = InnoDB;
 
