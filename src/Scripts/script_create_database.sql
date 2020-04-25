@@ -21,8 +21,8 @@ CREATE TABLE IF NOT EXISTS `orcamento_publico`.`TD_Programa` (
   `Id_Dimensao_Programa` INT NOT NULL AUTO_INCREMENT,
   `Cod_Programa_Orcamentario` INT NULL,
   `Nome_Programa_Orcamentario` VARCHAR(250) NULL,
-  `Cod_Acao` INT NULL,
-  `Nome_Acao` VARCHAR(250) NULL,
+  `Cod_Acao` CHAR(10) NULL,
+  `Nome_Acao` VARCHAR(500) NULL,
   `Data_Criacao` DATETIME NULL,
   PRIMARY KEY (`Id_Dimensao_Programa`))
 ENGINE = InnoDB;
